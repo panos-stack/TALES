@@ -59,7 +59,6 @@
             // bwBtn
             // 
             bwBtn.BackColor = Color.BurlyWood;
-            bwBtn.BackgroundImage = Properties.Resources.Backward_button;
             bwBtn.BackgroundImageLayout = ImageLayout.Stretch;
             bwBtn.Location = new Point(356, 14);
             bwBtn.Margin = new Padding(5);
@@ -71,7 +70,6 @@
             // fwBtn
             // 
             fwBtn.BackColor = Color.BurlyWood;
-            fwBtn.BackgroundImage = Properties.Resources.Forward_button;
             fwBtn.BackgroundImageLayout = ImageLayout.Stretch;
             fwBtn.Location = new Point(532, 14);
             fwBtn.Margin = new Padding(5);
@@ -83,7 +81,6 @@
             // playBtn
             // 
             playBtn.BackColor = Color.BurlyWood;
-            playBtn.BackgroundImage = Properties.Resources.Play_button;
             playBtn.BackgroundImageLayout = ImageLayout.Stretch;
             playBtn.Location = new Point(416, 14);
             playBtn.Margin = new Padding(5);
@@ -96,7 +93,6 @@
             // volumeBtn
             // 
             volumeBtn.BackColor = Color.BurlyWood;
-            volumeBtn.BackgroundImage = Properties.Resources.Volume;
             volumeBtn.BackgroundImageLayout = ImageLayout.Stretch;
             volumeBtn.Location = new Point(620, 14);
             volumeBtn.Margin = new Padding(5);
@@ -126,7 +122,6 @@
             // replayBtn
             // 
             replayBtn.BackColor = Color.BurlyWood;
-            replayBtn.BackgroundImage = Properties.Resources.Replay;
             replayBtn.BackgroundImageLayout = ImageLayout.Stretch;
             replayBtn.Location = new Point(474, 14);
             replayBtn.Name = "replayBtn";
@@ -156,7 +151,6 @@
             // gr_enBtn
             // 
             gr_enBtn.BackColor = Color.BurlyWood;
-            gr_enBtn.BackgroundImage = Properties.Resources.GR_EN_icon;
             gr_enBtn.BackgroundImageLayout = ImageLayout.Stretch;
             gr_enBtn.Location = new Point(270, 14);
             gr_enBtn.Name = "gr_enBtn";
