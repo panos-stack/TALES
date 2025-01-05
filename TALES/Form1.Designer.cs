@@ -59,8 +59,9 @@
             // bwBtn
             // 
             bwBtn.BackColor = Color.BurlyWood;
+            bwBtn.BackgroundImage = Properties.Resources.Backward_button;
             bwBtn.BackgroundImageLayout = ImageLayout.Stretch;
-            bwBtn.Location = new Point(356, 14);
+            bwBtn.Location = new Point(161, 11);
             bwBtn.Margin = new Padding(5);
             bwBtn.Name = "bwBtn";
             bwBtn.Size = new Size(50, 50);
@@ -70,8 +71,9 @@
             // fwBtn
             // 
             fwBtn.BackColor = Color.BurlyWood;
+            fwBtn.BackgroundImage = Properties.Resources.Forward_button;
             fwBtn.BackgroundImageLayout = ImageLayout.Stretch;
-            fwBtn.Location = new Point(532, 14);
+            fwBtn.Location = new Point(337, 11);
             fwBtn.Margin = new Padding(5);
             fwBtn.Name = "fwBtn";
             fwBtn.Size = new Size(50, 50);
@@ -81,8 +83,9 @@
             // playBtn
             // 
             playBtn.BackColor = Color.BurlyWood;
+            playBtn.BackgroundImage = Properties.Resources.Play_button;
             playBtn.BackgroundImageLayout = ImageLayout.Stretch;
-            playBtn.Location = new Point(416, 14);
+            playBtn.Location = new Point(221, 11);
             playBtn.Margin = new Padding(5);
             playBtn.Name = "playBtn";
             playBtn.Size = new Size(50, 50);
@@ -93,8 +96,9 @@
             // volumeBtn
             // 
             volumeBtn.BackColor = Color.BurlyWood;
+            volumeBtn.BackgroundImage = Properties.Resources.Volume;
             volumeBtn.BackgroundImageLayout = ImageLayout.Stretch;
-            volumeBtn.Location = new Point(620, 14);
+            volumeBtn.Location = new Point(425, 11);
             volumeBtn.Margin = new Padding(5);
             volumeBtn.Name = "volumeBtn";
             volumeBtn.Size = new Size(50, 50);
@@ -113,17 +117,18 @@
             panel2.Controls.Add(playBtn);
             panel2.Controls.Add(fwBtn);
             panel2.Controls.Add(bwBtn);
-            panel2.Location = new Point(205, 508);
+            panel2.Location = new Point(405, 508);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(924, 125);
+            panel2.Size = new Size(724, 125);
             panel2.TabIndex = 0;
             // 
             // replayBtn
             // 
             replayBtn.BackColor = Color.BurlyWood;
+            replayBtn.BackgroundImage = Properties.Resources.Replay;
             replayBtn.BackgroundImageLayout = ImageLayout.Stretch;
-            replayBtn.Location = new Point(474, 14);
+            replayBtn.Location = new Point(279, 11);
             replayBtn.Name = "replayBtn";
             replayBtn.Size = new Size(50, 50);
             replayBtn.TabIndex = 10;
@@ -131,7 +136,7 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(270, 72);
+            progressBar1.Location = new Point(75, 69);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(400, 29);
             progressBar1.TabIndex = 8;
@@ -142,17 +147,18 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.BurlyWood;
-            label1.Location = new Point(226, 22);
+            label1.Location = new Point(22, 19);
             label1.Name = "label1";
-            label1.Size = new Size(38, 28);
+            label1.Size = new Size(37, 28);
             label1.TabIndex = 4;
-            label1.Text = "GR";
+            label1.Text = "EN";
             // 
             // gr_enBtn
             // 
             gr_enBtn.BackColor = Color.BurlyWood;
+            gr_enBtn.BackgroundImage = Properties.Resources.GR_EN_icon;
             gr_enBtn.BackgroundImageLayout = ImageLayout.Stretch;
-            gr_enBtn.Location = new Point(270, 14);
+            gr_enBtn.Location = new Point(75, 11);
             gr_enBtn.Name = "gr_enBtn";
             gr_enBtn.Size = new Size(50, 50);
             gr_enBtn.TabIndex = 0;
@@ -165,7 +171,7 @@
             flowLayoutPanel1.BackColor = Color.Transparent;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(202, 633);
+            flowLayoutPanel1.Size = new Size(402, 633);
             flowLayoutPanel1.TabIndex = 3;
             // 
             // panel1
